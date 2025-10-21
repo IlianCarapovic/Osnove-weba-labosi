@@ -1,0 +1,42 @@
+ol  {
+    border: 2px solid black;
+    width: 250px;
+    padding:5px ;
+}
+
+ol li{
+    padding: 3px;
+    padding-left: 34px;
+    list-style-position: inside;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position:5px center;
+
+}
+
+ol li:last-child{
+    margin-bottom: 0;
+}
+
+ol li.de{
+    background: url("../IMAGES/de.png") 5px center no-repeat rgba(255, 0, 0, 0.75);
+}
+
+ol li.en{
+    background: url("../IMAGES/en-GB.png") 5px center no-repeat rgba(0, 255, 0, 0.25);
+}
+
+ol li.es{
+     background: url("../IMAGES/es.png") 5px center no-repeat rgba(0, 0, 255, 0.5);
+ }
+
+ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+ol li a:hover {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
